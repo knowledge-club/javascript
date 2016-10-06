@@ -9,7 +9,7 @@ To use ES6, ES7, you dont need a browser/Node.js with support to their. You can 
 
 Babel allow you to use new things of Javascript today :D.
 
-Has many ways to tranpile using Babel in different environments.
+Has many ways to tranpile using Babel in different environments. Look [here](https://babeljs.io/docs/setup/)
 
 If you use Node.js, I suggest you to update to an version greater or equal to 4.x, because that have support to many things in ES6.
 
