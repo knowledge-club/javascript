@@ -1,4 +1,4 @@
-## Var
+## var
 
 Variables be common in any programming languagel, and in Javascript dont be different. You will use their to work with data. A user name typed, a valur to sum with another, only be examples. Variables are nothing more than memory allocation.
 

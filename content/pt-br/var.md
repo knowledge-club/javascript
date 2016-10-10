@@ -1,4 +1,4 @@
-## Var
+## var
 
 Variáveis são comuns em quaisquer linguagem de programação, e em Javascript não é diferente. Você usará elas para trabalhar com dados. Um nome de usuário digitado, um valor para somar com outro, são apenas alguns exemplos. Variáveis nada mais são do que alocações em memória.
 
