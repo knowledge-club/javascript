@@ -10,7 +10,7 @@ var username = "John"
 Notem, para *atribuirmos* um valor a uma varíavel, usamos um operador `=`. Sempre o usaremos para isto, atribuir um valor a uma variável. Segundo, nós criamos strings, usando aspas. No exemplo acima fizemos com aspas simples, e outra com aspas duplas. Embora ambos sejam válidos, em Javascript o padrão é usarmos aspas simples, então corrigindo o código ficaria assim:
 
 ```js
-// following patterns, use single quotes
+// seguindo patterns, use aspas simples
 var phrase = 'You know nothing';
 var username = 'John';
 ```
