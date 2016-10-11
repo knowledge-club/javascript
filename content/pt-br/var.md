@@ -15,26 +15,26 @@ Vamos a alguns detalhes imporantes da linguagem, primeiro, para criar uma variá
 Já o nome que você dá à variável, não pode começar por número, mas pode conter ou terminar por números.
 
 ```js
-// invalid
+// inválido
 var 1player;
 ```
 
 ```js
-// valid
+// válido
 var player1;
 ```
 
 Também não é permitido usar operadores da linguagens no nome da variável, ou mesmo usar nomes reservados da linguagem para nomeá-las.
 
 ```js
-// invalid, '-'' é um operador
+// inválido, '-'' é um operador
 var player-1;
-// invalid, var é uma palavra reservada da linguagem
+// inválido, var é uma palavra reservada da linguagem
 var var;
 ```
 
 ```js
-// valid, 
+// válido, 
 var player_javasacript
 ```
 
@@ -46,24 +46,24 @@ Embora símbolos sejam permitidos no nome de variávies (_, $, @, entre outros),
 O camel case consiste em deixar a primeira letra das palavras subsequentes (não a primeira) em maíuscula
 
 ```js
-// valid but not follow patterns
+// válido mas não segue os patterns
 var user_height;
 ```
 
 ```js
-// valid and following patterns
+// válido e seguindo patterns
 var userHeight;
 ```
 
 Por último, um último padrão sobre declaração de variáveis. Se for declarar muitas ao mesmo tempo, o Javascript permite usar vírgula, mas não é o padrão.
 
 ```js
-// valid but not follow patterns
+// válido mas não segue os patterns
 var userName, userAddress, userHeight;
 ```
 
 ```js
-// valid and following patterns
+// válido e seguindo patterns
 var userName;
 var userAddress;
 var userHeight;
