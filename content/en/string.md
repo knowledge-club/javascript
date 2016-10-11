@@ -18,9 +18,7 @@ var username = 'John';
 
 So better!! Now we see how to work with these strings.
 
-First, the username are wrong, the write is John Snow. Then, to overwrite the value of variable, 
-
-Primeiro, o username está errado, o correto seria John Snow. Então, para sobrescrever o valor da variável, just what we call the variable name again.
+First, the username are wrong, the write is John Snow. Then, to overwrite the value of variable, just what we call the variable name again.
 
 ```js
 username = 'John Snow';
