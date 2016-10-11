@@ -38,7 +38,7 @@ var var;
 var player_javasacript
 ```
 
-Although symbols are allowed in variable names (_, $, @, entre outros), there are patterns of both Javascript, 
+Although symbols are allowed in variable names (_, $, @, etc), there are patterns of both Javascript, 
 as tools that you probably will use. But in general, the patterns most important in Javascript is:
 
 - name of variables in lower case
