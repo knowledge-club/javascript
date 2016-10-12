@@ -1,18 +1,18 @@
 ## var
 
-Variables be common in any programming languagel, and in Javascript dont be different. You will use their to work with data. A user name typed, a valur to sum with another, only be examples. Variables are nothing more than memory allocation.
+Variables are common in any programming language, and in Javascript it is not different. You are going to use them to work with data such as: an user name, a value to sum with another. Variables are nothing more than memory allocation.
 
-Let's see how create a variable in Javascript:
+Let's see how we create a variable in Javascript:
 
 ```js
 var player;
 ```
 
-In before example, we create a variable with name `player`, without value assigned.
+In the above example, we created a variable called `player`, without any value assigned.
 
-Let some important details of the language, first, to create a variable use the reserved word `var` and next, give a nem to your variable.
+Lets discuss some important details of the language. First: to create a variable use the keyword `var`; second give a name to it.
 
-But the name you give to the variable, cant begin for number, but may contain or end with numbers.
+The variable names must follow some rules. One of them is that they may no begin with any kind of number or digit, but it is possible to have them in the end or in the middle.
 
 ```js
 // invalid
@@ -24,7 +24,7 @@ var 1player;
 var player1;
 ```
 
-It is also not allowed to use language operators in the variable name, or use reserved words of language to name them.
+It is also not allowed to use language operators in the variable name, or use any of the language's keywords to name them.
 
 ```js
 // invalid, '-'' is a operator
@@ -38,16 +38,15 @@ var var;
 var player_javasacript
 ```
 
-Although symbols are allowed in variable names (_, $, @, etc), there are patterns of both Javascript, 
-as tools that you probably will use. But in general, the patterns most important in Javascript is:
+Although symbols are allowed in variable names (`_`, `$`, `@`, etc), there are some Javascript patterns that define how they should be used, the most important of them is:
 
-- name of variables in lower case
-- if name is a compound name, example user address, use camel calse
+- Name of variables in lower case
+- If the name is a compound name, Example 'user address', use camelCase
 
-The camel case consisting in to let the first letter of subsequent words (not the first) in upper case.
+The camelCase consists in use the first letter of the first word in lower case and the subsequent words in upper case.
 
 ```js
-// valid but not follow patterns
+// valid but don't follow patterns
 var user_height;
 ```
 
@@ -56,10 +55,12 @@ var user_height;
 var userHeight;
 ```
 
-Then, a last pattern to declare variables. If declare many at same time, the Javascript allow use commas, but not be the pattern.
+Then, one last pattern regarding variables. 
+
+If you want to declare many at the same time, Javascript allows the use of commas. However this is not recommended by the Javascript codding standards.
 
 ```js
-// valid but not follow patterns
+// valid but don't follow patterns
 var userName, userAddress, userHeight;
 ```
 
@@ -70,7 +71,7 @@ var userAddress;
 var userHeight;
 ```
 
-Another thing, Javascript allow create variables without use the reserved word `var`, but has a series of problems with this.
+One last thing, Javascript allows us to create variables without the use of the reserved word `var`, but we will have a series of problems if we do this:
 
 ```js
 useName;
