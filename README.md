@@ -6,4 +6,5 @@ If you are a beginner in javascript, or know it, below you can find articles to 
 
 - ECMAScript [en](content/en/ecma-script.md), [pt-br](content/pt-br/ecma-script.md)
 - var [en](content/en/var.md), [pt-br](content/pt-br/var.md)
-- string [en](content/en/string.md), [pt-br](content/pt-br/string.md)
+- String [en](content/en/string.md), [pt-br](content/pt-br/string.md)
+- Number [en](content/en/number.md), [pt-br](content/pt-br/number.md)
