@@ -5,3 +5,5 @@ Javascript is one of the most used languages in the world. Front end and back en
 If you are a beginner in javascript, or know it, below you can find articles to learn and improve your knowledge.
 
 - ECMAScript [en](content/en/ecma-script.md), [pt-br](content/pt-br/ecma-script.md)
+- var [en](content/en/var.md), [pt-br](content/pt-br/var.md)
+- string [en](content/en/string.md), [pt-br](content/pt-br/string.md)
