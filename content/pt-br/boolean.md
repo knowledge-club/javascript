@@ -1,15 +1,13 @@
 ## Boolean
 
-O tipo boolean é um tipo bem simples, ele representa os valores `true` e `false`, e podemos tomar decisões com base nestes dois estados. Imagine uma variável que determina se uma lâmpada está ligada ou não. Ou uma variável que determina se um dado é visível ou não. Booleans servem para definir estes estados. São exemplos:
+O tipo boolean é um tipo bem simples, ele representa os valores `true` e `false`, nós iremos usá-lo para tomar decisões em nosso código. Imagine uma variável que determina se uma lâmpada está ligada ou não. Ou uma variável que determina se o usuário tem acessou ou não a um recurso. Booleans são criados por atribuição direta:
 
 ```js
 var khalDrogoLive = false;
 var khaleesiLive = true;
 ```
 
-Assim como temos operadores para trabalhar com Numbers, temos operadores para fazer comparações, e verificar se é verdadeiro ou falso.
-
-Veremos mais sobre operadores condicionais em outro artigo, mas por hora segue alguns exemplos
+Ou podemos utilizar operadores condicionais para nos retornar um boolean:
 
 ```js
 // > maior que

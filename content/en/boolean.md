@@ -1,25 +1,27 @@
 ## Boolean
 
-The boolean type is very simple, they represent the values `true` and `false`, and we can give decisions with their two states. Imagine a variable who determine if a lamp is on or not. Or a variable what determine if a data is visible or not. Booleans serve to define these states. E.g:
+The boolean type is very simple, they represents two values `true` and `false`, we will use it to make decisions in our code. Think in a variable who detemine if a lamb is connected. Or a variable that determines whether the user has access to a resource or not. Booleans 
+
+Imagine uma variável que determina se uma lâmpada está ligada ou não. Ou uma variável que determina se o usuário tem acessou ou não a um recurso. Booleans are created by direct assignment:
 
 ```js
 var khalDrogoLive = false;
 var khaleesiLive = true;
 ```
 
-Like we have operators to work with Numbers, we have operators to do comparations, and check if is true or false.
-Will see more about conditional operators in a future article, but now see some examples
+Or we can use conditional operators for the return a boolean:
 
 ```js
-// > greater than
+// > maior que
 var heightMountain = 2.06;
 heightMountan > 2;
-// return true
+// retorna true
 ```
 
 ```js
-// < less then
+// < menor que
 var heightMountain = 2.06;
 heightMountan < 2;
-// return false
+// retorna false
 ```
+
